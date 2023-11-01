@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="check-table">
+        <caption>Счёт-фактура</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Стоимость</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Карандаш</td>
+                <td rowspan="2">20</td>
+                <td>4</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Ластик</td>
+                <td>2</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Линейка</td>
+                <td>40</td>
+                <td>4</td>
+                <td>160</td>
+            </tr>
+            <tr>
+                <td>Тетрадь</td>
+                <td>50</td>
+                <td>3</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td colspan="3">Итог</td>
+                <td>470</td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="form-reg">
+        <label for="mail">Введите email</label><br>
+        <input id="mail" type="email" placeholder="Введите email" required><br>
+        <label for="pas">Введите пароль</label><br>
+        <input id="pas" type="password" placeholder="Введите пароль" required><br>
+        <input type="radio" id="gender-male" name="gender" value="male" checked>
+        <label for="gender-male">Мужской</label>
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">Женский</label><br>
+
+
+        <input type="submit" value="Зарегистрироваться" disabled >
+    </form>
+    
+</body>
+</html>
