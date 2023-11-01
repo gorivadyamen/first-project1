@@ -171,12 +171,16 @@ text-align: center;
     margin-bottom: 20px;
 }
 #contact-form {
-    background-color: #530ead;
+    background-color:#b098cf;
     display: inline-block;
-    padding: 10px 120px 10px 10px;
+    padding: 10px 100px 10px 10px;
     color: #fff;
 }
-#contact-form #name{
+#contact-form input[type="text"],
+input[type="email"],
+input[type="tel"],input
+[type="phone"],
+[type="date"]{
     height: 20px;
     width: 250px;
     padding: 5px;
